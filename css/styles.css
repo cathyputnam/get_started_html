@@ -37,11 +37,29 @@ nav {
 article {
   border: 1px;
   border-style: solid;
-  border-color: purple;
-  padding: 5pt;
-  margin: 8pt;
+  border-color: blue;
+  padding: 10pt;
+  margin: 10pt;
+}
+aside {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+  margin-top: 20pt;
+  margin-left: 20pt;
 }
 
+aside h2 {
+  font-size: 16pt;
+}
+footer {
+  border-top: 1pt solid;
+}
+
+footer p {
+  font-size: 12pt;
+  text-align: right;
+}
 article header {
   font-style: italic;
 }
