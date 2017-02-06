@@ -32,8 +32,24 @@ nav {
   color: blue;
   border: 1px;
   border-style: solid;
-  background-color: yellow;
+  background-color: red;
 }
+article {
+  border: 1px;
+  border-style: solid;
+  border-color: purple;
+  padding: 5pt;
+  margin: 8pt;
+}
+
+article header {
+  font-style: italic;
+}
+
+article p {
+  margin-left: 20pt;
+}
+
 a {
   color: #52d3aa;
   -webkit-transition: 0.5s;
